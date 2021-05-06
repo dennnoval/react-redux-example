@@ -18,7 +18,7 @@ function App () {
       <h2>Cake Shop</h2>
       <p>Number of Cakes: {numberOfCakes}</p>
       <br/>
-      <button type='button' onClick={() => dispatch(buyCake())}></button>
+      <button type='button' onClick={() => dispatch(buyCake())}>-</button>
     </div>
   )
 }
